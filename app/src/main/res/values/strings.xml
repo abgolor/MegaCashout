@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Mega Cashout</string>
+    <string name="daily_5_odds">Daily 5 Odds</string>
+    <string name="daily_10_odds">Daily 10 Odds</string>
+    <string name="vip">VIP</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="next">Next</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="odds">Odds</string>
+    <string name="options">Options</string>
+    <string name="game">Game</string>
+
+    <string-array name="fiveoddsitems">
+        <item>England vs Australia</item>
+        <item>Belgium vs Denmark</item>
+        <item>Spain vs Egypt</item>
+    </string-array>
+
+    <string-array name="tenoddsitems">
+        <item>Algeria vs Uganda</item>
+        <item>Ghana vs Nigerias</item>
+        <item>China vs India</item>
+        <item>France vs Portugal</item>
+        <item>Spain vs Denmark</item>
+
+    </string-array>
+
+    <string-array name="fiveodds">
+        <item>2.09</item>
+        <item>1.89</item>
+        <item>1.7</item>
+    </string-array>
+
+    <string-array name="tenodds">
+        <item>1.88</item>
+        <item>1.56</item>
+        <item>1.9</item>
+        <item>1.4</item>
+        <item>1.6</item>
+    </string-array>
+
+    <string-array name="fiveoptions">
+        <item>1</item>
+        <item>ov. 2.5</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="tenoptions">
+        <item>un. 2.5</item>
+        <item>ov. 1.5</item>
+        <item>ov. 2.5</item>
+        <item>2</item>
+        <item>12</item>
+    </string-array>
+</resources>
