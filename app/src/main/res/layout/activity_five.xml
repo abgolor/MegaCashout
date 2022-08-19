@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fiveLinear"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".FiveActivity">
 
 
     <ImageView
@@ -17,22 +19,24 @@
 
     <TextView
         android:id="@+id/daily5"
-        
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/daily_5_odds"
         android:textColor="@color/white"
         android:textSize="24sp"
+        android:layout_marginLeft="15dp"
         android:textStyle="bold" />
 
-<ListView
-    android:id="@+id/tenListView"
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/fiveListView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="60dp"
-    android:orientation="vertical" >
-
-</ListView>
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    tools:listitem="@layout/five_odds_listview"/>
 
 </LinearLayout>

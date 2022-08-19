@@ -1,14 +1,14 @@
-package com.example.megacashout;
+package com.dekraftsman.megacashout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class VipActivity extends AppCompatActivity {
+public class AdminDashboardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vip);
+        setContentView(R.layout.activity_admin_dashboard);
     }
 }

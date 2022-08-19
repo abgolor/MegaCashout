@@ -1,4 +1,4 @@
-package com.example.megacashout;
+package com.dekraftsman.megacashout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,10 +9,15 @@ import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity {
 
+
+    private Button goAdminLogin;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        goAdminLogin = findViewById(R.id.go_admin_login);
         
         Button fiveOdds = findViewById(R.id.fiveBtn);
         fiveOdds.setOnClickListener(v -> {
@@ -30,6 +35,11 @@ public class HomeActivity extends AppCompatActivity {
         vipOdds.setOnClickListener(v -> {
             Intent startIntent = new Intent(HomeActivity.this, VipActivity.class);
             startActivity(startIntent);
+        });
+
+        goAdminLogin.setOnClickListener(v -> {
+            Intent adminLogin = new Intent(getApplicationContext(), AdminLoginActivity.class);
+            startActivity(adminLogin);
         });
     }
 }

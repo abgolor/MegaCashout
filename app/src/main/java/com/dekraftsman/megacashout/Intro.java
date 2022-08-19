@@ -1,14 +1,14 @@
-package com.example.megacashout;
+package com.dekraftsman.megacashout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class IntroOdds extends AppCompatActivity {
+public class Intro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intro_odds);
+        setContentView(R.layout.activity_intro);
     }
 }

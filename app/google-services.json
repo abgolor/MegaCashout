@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47306109202",
+    "project_id": "mega-cashout",
+    "storage_bucket": "mega-cashout.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47306109202:android:77b3d20cdd1a337dca83cb",
+        "android_client_info": {
+          "package_name": "com.dekraftsman.megacashout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47306109202-c45vvktqtsjmku2p66ufuhmpoe8tltgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXtgsEZWPzuxFrpiAwCFHWwRTGzCDjBHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47306109202-c45vvktqtsjmku2p66ufuhmpoe8tltgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

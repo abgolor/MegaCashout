@@ -1,4 +1,4 @@
-package com.example.megacashout;
+package com.dekraftsman.megacashout;
 
 import androidx.appcompat.app.AppCompatActivity;
 

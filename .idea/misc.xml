@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/edittext_background.xml" value="0.13" />
         <entry key="app/src/main/res/layout-v31/activity_five.xml" value="0.22509057971014493" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_admin_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-w936dp/activity_admin_login.xml" value="0.183984375" />
+        <entry key="app/src/main/res/layout/activity_admin_login.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/activity_five.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.11927083333333334" />
@@ -11,7 +15,9 @@
         <entry key="app/src/main/res/layout/activity_intro_vip.xml" value="0.10416666666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_ten.xml" value="0.22509057971014493" />
+        <entry key="app/src/main/res/layout/activity_vip.xml" value="0.21944444444444444" />
         <entry key="app/src/main/res/layout/five_odds_listview.xml" value="0.22509057971014493" />
+        <entry key="app/src/main/res/layout/loading_dialog.xml" value="0.24427083333333333" />
         <entry key="app/src/main/res/layout/ten_odds_listview.xml" value="0.22509057971014493" />
       </map>
     </option>
